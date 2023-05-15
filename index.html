@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio | LZ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+  <header>
+    <h1> <a href="index.html">Leonardo Zuluaga</a></h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="hobbies.html">Hobbies</a>
+        </li>
+        <li>
+          <a href="lenguajes.html">Lenguajes</a>
+        </li>
+        <li>
+          <a href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <figure>
+      <img src="assets/img/profile.png" alt="Zuluaga">
+      <figcaption><strong>Estudiante de Ingenieria de Sistemas</figcaption></strong>
+    </figure>
+    <p>Soy estudiante de Ingenieria de Sistemas, me gusta el desarrollo web, tengo conocimientos en php, java, algun dia
+      sere un gran desarrollador fullstack.</p>
+    <iframe style="border-radius:12px"
+      src="https://open.spotify.com/embed/track/1i5oEx2vFczQ2sCY3c6Kn5?utm_source=generator" width="50%" height="352"
+      frameBorder="0" allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+    </iframe>
+  </main>
+  <footer>
+    <h2 id="contacto">Contacto</h2>
+    <form >
+        <legend>Datos Personales</legend>
+        <label for="nombre">Nombre:
+          <input type="text" id="nombre" name="nombre">
+        </label>
+        <label for="correo">Correo electrónico:
+          <input type="email" id="correo" name="correo">
+        </label>
+        <label for="telefono">Telefono:
+          <input type="tel" id="telefono" name="Telefono">
+        </label>
+        <label for="Comentario">Comentario:
+          <textarea id="comentario" name="comentario" rows="5" cols="50"></textarea>
+        </label>
+        <input type="submit" value="Enviar">
+    </form>
+  </footer>
+</body>
+</html>

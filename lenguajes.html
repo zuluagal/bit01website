@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio | LZ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+  <header>
+    <h1> <a href="index.html">Leonardo Zuluaga</a></h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="hobbies.html">Hobbies</a>
+        </li>
+        <li>
+          <a href="lenguajes.html">Lenguajes</a>
+        </li>
+        <li>
+          <a href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section> 
+    <h2>Lenguajes</h2>
+    <div>
+        <img src="assets/img/html.png" alt="html">
+        <img src="assets/img/css.jpg" alt="css">
+        <img src="assets/img/php.jpg" alt="php">
+    </div>
+  </section>
+  <footer>
+    <h2 id="contacto">Contacto</h2>
+    <form >
+        <legend>Datos Personales</legend>
+        <label for="nombre">Nombre:
+          <input type="text" id="nombre" name="nombre">
+        </label>
+        <label for="correo">Correo electrónico:
+          <input type="email" id="correo" name="correo">
+        </label>
+        <label for="telefono">Telefono:
+          <input type="tel" id="telefono" name="Telefono">
+        </label>
+        <label for="Comentario">Comentario:
+          <textarea id="comentario" name="comentario" rows="5" cols="50"></textarea>
+        </label>
+        <input type="submit" value="Enviar">
+    </form>
+  </footer>
+</body>
+</html>
